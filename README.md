@@ -2,13 +2,15 @@
 
 ## 🔵 Array initializations & operations
 <table cellspacing="0" cellpadding="0">
-	<tbody>
+	<thead>
 		<tr>
-			<td align="center" valign="middle"><b>SL</b></td>
-			<td align="center" valign="middle"><b>Cateogry</b></td>
-			<td align="center" valign="middle" width="800px"><b>Program</b></td>
-			<td align="center" valign="middle"><b>Sources</b></td>
+			<th align="center" valign="middle"><b>SL</b></th>
+			<th align="center" valign="middle"><b>Cateogry</b></th>
+			<th align="center" valign="middle" width="800px"><b>Program</b></th>
+			<th align="center" valign="middle"><b>Sources</b></th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td colspan="4" align="center" valign="middle"><sub><sup>🡇</sup></sub> Array <sub><sup>🡇</sup></sub></td>
 		</tr>
@@ -119,7 +121,7 @@
 		<tr>
 			<td align="center" valign="middle">16</td>
 			<td align="center" rowspan="15" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/174913428-104f940b-9351-48f2-82d7-a0cfec630fc9.png"/></td>
-			<td align="center" valign="middle">Selection sort</td>
+			<td valign="middle">Selection sort</td>
 			<td align="center" valign="middle"><a target="_blank" href="/Sorting/Selection sort.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 		</tr>
 		<tr>
@@ -242,7 +244,7 @@
 
 ## 🔵 Linked List
 <table cellspacing="0" cellpadding="0">
-	<tbody>
+	<thead>
 		<tr>
 			<td rowspan="2" align="center" valign="middle"><b>SL</b></td>
 			<td rowspan="2" align="center" valign="middle"><b>Cateogry</b></td>
@@ -250,11 +252,13 @@
 			<td colspan="4" align="center" valign="middle"><b><img height="15px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png" alt="C++"> Sources</b></td>
 		</tr>
 		<tr>
-			<td align="center" valign="middle"><b><sub><sup>Singly</sup></sub></b></td>
-			<td align="center" valign="middle"><b><sub><sup>Doubly</sup></sub></b></td>
-			<td align="center" valign="middle" width="90px"><b><sub><sup>Singly-C</sup></sub></b></td>
-			<td align="center" valign="middle" width="90px"><b><sub><sup>Doubly-C</sup></sub></b></td>
+			<th align="center" valign="middle"><b><sub><sup>Singly</sup></sub></b></th>
+			<th align="center" valign="middle"><b><sub><sup>Doubly</sup></sub></b></th>
+			<th align="center" valign="middle" width="90px"><b><sub><sup>Singly-C</sup></sub></b></th>
+			<th align="center" valign="middle" width="90px"><b><sub><sup>Doubly-C</sup></sub></b></th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td align="center" valign="middle">1</td>
 			<td align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/175791765-b8dcd153-5cf1-44bc-b2b4-6d4ebde3d757.png"/></td>
@@ -506,6 +510,189 @@
 			<td align="center" valign="middle"><a target="_blank" href="/Linked List/Singly Circular Linked List/Singly Circular Linked List - Reverse (Recursive).cpp" ><img height="18px" src="https://user-images.githubusercontent.com/34242279/175141139-3d28d525-ea6f-4cbf-a0fb-9d8a5da3c68a.svg"/></a></td>
 			<td align="center" valign="middle"><a target="_blank" href="/Linked List/Doubly Circular Linked List/Doubly Circular Linked List - Reverse (Recursive).cpp" ><img height="18px" src="https://user-images.githubusercontent.com/34242279/175141114-a4adb48a-2470-4b6f-beb6-794980562011.svg"/></a></td>
 		</tr>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<br><br><br>
+
+
+
+## 🔵 Stack
+<table cellspacing="0" cellpadding="0">
+	<thead>
+		<tr>
+			<th align="center" valign="middle">SL</th>
+			<th valign="middle">Cateogry</th>
+			<th align="center" valign="middle" width="800px">Program</th>
+			<th align="center" valign="middle">Sources</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Stack ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">1</td>
+			<td rowspan="3" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/187092436-851b1fcc-555a-4ba7-9c6d-907f72c04010.png"/></td>
+			<td valign="middle">Stack implementation using STL</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack/Stack implementation using STL.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">2</td>
+			<td valign="middle">Stack implementation using array</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack/Stack implementation using array.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">3</td>
+			<td valign="middle">Stack implementation using linked list</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack/Stack implementation using linked list.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Infix - Prefix - Postfix ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">4</td>
+			<td rowspan="11" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/187092613-dc44c764-b07a-4f19-a3f6-9394b1bd6319.png"/></td>
+			<td valign="middle">Infix to Prefix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Infix to Prefix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">5</td>
+			<td valign="middle">Infix to Prefix (without stack)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Infix to Prefix (without stack).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">6</td>
+			<td valign="middle">Infix to Postfix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Infix to Postfix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">7</td>
+			<td valign="middle">Prefix to Infix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Prefix to Infix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">8</td>
+			<td valign="middle">Prefix to Postfix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Prefix to Postfix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">9</td>
+			<td valign="middle">Prefix Evaluation</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Prefix Evaluation.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">10</td>
+			<td valign="middle">Prefix Evaluation (greater value)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Prefix Evaluation (greater value).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">11</td>
+			<td valign="middle">Postfix to Infix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Postfix to Infix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">12</td>
+			<td valign="middle">Postfix to Prefix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Postfix to Prefix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">13</td>
+			<td valign="middle">Postfix Evaluation</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Postfix Evaluation.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">14</td>
+			<td valign="middle">Postfix Evaluation (greater value)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Stack  - Prefix%2C Infix%2C Postfix/Postfix Evaluation (greater value).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<br><br><br>
+
+
+
+## 🔵 Queue
+<table cellspacing="0" cellpadding="0">
+	<thead>
+		<tr>
+			<th align="center" valign="middle">SL</th>
+			<th valign="middle">Cateogry</th>
+			<th align="center" valign="middle" width="800px">Program</th>
+			<th align="center" valign="middle">Sources</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Queue ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">1</td>
+			<td rowspan="3" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/187092432-29d02f6f-fbc7-4a1d-af87-67e3ca1e29b4.png"/></td>
+			<td valign="middle">Queue implementation using STL</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Queue implementation using STL.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">2</td>
+			<td valign="middle">Queue implementation using stack (STL)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Queue implementation using stack (STL).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">3</td>
+			<td valign="middle">Queue implementation using stack (array)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Queue implementation using stack (array).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">4</td>
+			<td rowspan="3" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/187092433-a62e450a-6af8-4287-932e-45cf7fd49b0e.png"/></td>
+			<td valign="middle">Linear Queue implementation using array</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Linear Queue implementation using array.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">5</td>
+			<td valign="middle">Linear Queue implementation using array with rearrange elements</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Linear Queue implementation using array with rearrange elements.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">6</td>
+			<td valign="middle">Linear Queue implementation using linked list</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Linear Queue implementation using linked list.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">7</td>
+			<td rowspan="2" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/187092427-eae8485a-e980-4085-87b4-934eea674ea4.png"/></td>
+			<td valign="middle">Circular Queue implementation using array</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Circular Queue implementation using array.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">8</td>
+			<td valign="middle">Circular Queue implementation using linked list</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Circular Queue implementation using linked list.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Deque (Double ended queue) ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">9</td>
+			<td rowspan="3" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/187092430-d7640b85-b56a-447b-a229-f4aea1956939.png"/></td>
+			<td valign="middle">Deque implementation using STL</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Deque (Double ended queue)/Deque implementation using STL.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">10</td>
+			<td valign="middle">Deque implementation using circular array</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Deque (Double ended queue)/Deque implementation using circular array.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">11</td>
+			<td valign="middle">Deque implementation using doubly linked list</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Queue/Deque (Double ended queue)/Deque implementation using doubly linked list.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 		</tr>
 	</tbody>
 </table>
