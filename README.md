@@ -775,10 +775,10 @@
 <table cellspacing="0" cellpadding="0">
 	<tbody>
 		<tr>
-			<td align="center" valign="middle">SL</td>
-			<td align="center" valign="middle">Cateogry</td>
-			<td align="center" valign="middle" width="800px">Program</td>
-			<td colspan="2" align="center" valign="middle">Sources</td>
+			<th align="center" valign="middle">SL</th>
+			<th align="center" valign="middle">Cateogry</th>
+			<th align="center" valign="middle" width="800px">Program</th>
+			<th colspan="2" align="center" valign="middle">Sources</th>
 		</tr>
 		<tr>
 			<td colspan="5" align="center" valign="middle">▼ Binary Tree ▼</td>
@@ -960,6 +960,284 @@
 			<td valign="middle">Deletion</td>
 			<td align="center" valign="middle"><a target="_blank" href="/Tree/B Tree/B Tree - Deletion.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 			<td align="center" valign="middle"><a target="_blank" href="/Tree/B+ Tree/B+ Tree - Deletion.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<br><br><br>
+
+
+
+### 🏁 Graph
+<table cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td width="500px" align="center" valign="middle">
+				<img width="250px" align="center" src="https://user-images.githubusercontent.com/34242279/216437686-9d960f0c-0f05-4770-b734-5348c62dfda7.png"/>
+			</td>
+			<td width="500px" align="center" valign="middle">
+				<img width="350px" align="center" src="https://user-images.githubusercontent.com/34242279/216437818-983421a5-c1ac-4392-9499-d80ff2c851bf.png"/>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<th align="center" valign="middle">SL</th>
+			<th valign="middle">Cateogry</th>
+			<th align="center" valign="middle" width="800px">Program</th>
+			<th align="center" valign="middle">Sources</th>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Adjacency List ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">1</td>
+			<td rowspan="5" align="center" valign="middle"><img src="https://user-images.githubusercontent.com/34242279/216402602-efe8e6a7-f312-4cf3-bf59-4cab88438191.png"/></td>
+			<td valign="middle">Undirected Graph implementation using Adjacency List</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency List/Undirected Graph implementation using Adjacency List.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">2</td>
+			<td valign="middle">Directed Graph implementation using Adjacency List</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency List/Directed Graph implementation using Adjacency List.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">3</td>
+			<td valign="middle">Weighted Graph implementation using Adjacency List</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency List/Weighted Graph implementation using Adjacency List.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">4</td>
+			<td valign="middle">Graph implementation using Adjacency List - based on user input</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency List/Graph implementation using Adjacency List - based on user input.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">5</td>
+			<td valign="middle">Graph implementation using Adjacency List &amp; Linked List - based on user input</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency List/Graph implementation using Adjacency List &amp; Linked List - based on user input.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Adjacency Matrix ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">6</td>
+			<td rowspan="6" align="center" valign="middle"><img src="https://user-images.githubusercontent.com/34242279/216402720-6fb2110c-7a3b-4eab-9298-08641401d282.png"/></td>
+			<td valign="middle">Undirected Graph implementation using Adjacency Matrix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency Matrix/Undirected Graph implementation using Adjacency Matrix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">7</td>
+			<td valign="middle">Directed Graph implementation using Adjacency Matrix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency Matrix/Directed Graph implementation using Adjacency Matrix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">8</td>
+			<td valign="middle">Weighted Graph implementation using Adjacency Matrix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency Matrix/Weighted Graph implementation using Adjacency Matrix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">9</td>
+			<td valign="middle">Graph implementation using Adjacency Matrix - based on user input</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency Matrix/Graph implementation using Adjacency Matrix - based on user input.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">10</td>
+			<td valign="middle">Unsorted Graph implementation using Adjacency Matrix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency Matrix/Unsorted Graph implementation using Adjacency Matrix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">11</td>
+			<td valign="middle">Unsorted Graph implementation using Adjacency Matrix (Number of elements unspecified)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Adjacency Matrix/Unsorted Graph implementation using Adjacency Matrix (Number of elements unspecified).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Incidence Matrix ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">12</td>
+			<td rowspan="4" align="center" valign="middle"><img src="https://user-images.githubusercontent.com/34242279/216402886-15be5d61-4001-4ccb-abef-c1f368860ea4.png"/></td>
+			<td valign="middle">Graph implementation using Incidence Matrix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Incindence Matrix/Graph implementation using Incidence Matrix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">13</td>
+			<td valign="middle">Graph implementation using Incidence Matrix - based on user input</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Incindence Matrix/Graph implementation using Incidence Matrix - based on user input.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">14</td>
+			<td valign="middle">Unsorted Graph implementation using Incidence Matrix</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Incindence Matrix/Unsorted Graph implementation using Incidence Matrix.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">15</td>
+			<td valign="middle">Unsorted Graph implementation using Incidence Matrix (Number of elements and edges are unspecified)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Incindence Matrix/Unsorted Graph implementation using Incidence Matrix (Number of elements and edges are unspecified).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ DFS ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">16</td>
+			<td rowspan="3" align="center" valign="middle"><img src="https://user-images.githubusercontent.com/34242279/216403411-ae590e9b-203a-4f89-b07d-f95b0d26aaf2.png"/></td>
+			<td valign="middle">Depth First Search (DFS)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/DFS/Depth First Search (DFS).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">17</td>
+			<td valign="middle">DFS for Disconnected Components and Unreachable Vertices in Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/DFS/DFS for Disconnected Components and Unreachable Vertices in Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">18</td>
+			<td valign="middle">DFS Edge Classification</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/DFS/DFS Edge Classification.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">19</td>
+			<td rowspan="2" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/216403562-5b30372f-abe3-4d26-895c-3c6c5da0881b.png"/></td>
+			<td valign="middle">DFS Cycle Detection for Undirected Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/DFS/Cycle Detection/DFS Cycle Detection for Undirected Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">20</td>
+			<td valign="middle">DFS Cycle Detection for Directed Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/DFS/Cycle Detection/DFS Cycle Detection for Directed Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">21</td>
+			<td align="center" valign="middle"><img width="18px" src="https://user-images.githubusercontent.com/34242279/216407953-5fad3d3b-04ee-4e04-85a6-5a9b392d5f28.png"/></td>
+			<td valign="middle">Topological Sort Using DFS</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/DFS/Topological Sort Using DFS.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ BFS ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">22</td>
+			<td rowspan="2" align="center" valign="middle"><img width="50px" src="https://user-images.githubusercontent.com/34242279/216403418-7ff800b4-0a29-463d-8c38-29e83a926069.png"/></td>
+			<td valign="middle">Breadth First Search (BFS)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/BFS/Breadth First Search (BFS).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">23</td>
+			<td valign="middle">BFS for Disconnected Components and Unreachable Vertices in Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/BFS/BFS for Disconnected Components and Unreachable Vertices in Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">24</td>
+			<td align="center" valign="middle"><img width="18px" src="https://user-images.githubusercontent.com/34242279/216403562-5b30372f-abe3-4d26-895c-3c6c5da0881b.png"/></td>
+			<td valign="middle">BFS Cycle Detection for Undirected Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/BFS/Cycle Detection/BFS Cycle Detection for Undirected Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">25</td>
+			<td align="center" valign="middle"><img width="18px" src="https://user-images.githubusercontent.com/34242279/216407953-5fad3d3b-04ee-4e04-85a6-5a9b392d5f28.png"/></td>
+			<td valign="middle">Topological Sort Using BFS (Kahn's Algroithm)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/BFS/Topological Sort Using BFS (Kahn's Algroithm).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">26</td>
+			<td align="center" valign="middle"><img width="18px" src="https://user-images.githubusercontent.com/34242279/216403562-5b30372f-abe3-4d26-895c-3c6c5da0881b.png"/></td>
+			<td valign="middle">BFS Cycle Detection for Directed Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/BFS/Cycle Detection/BFS Cycle Detection for Directed Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Path ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">27</td>
+			<td align="center" rowspan="6" valign="middle"><img src="https://user-images.githubusercontent.com/34242279/216406844-cb5fb8fb-7284-494f-a796-dbea7ea203c8.png"/></td>
+			<td valign="middle">Find the Shortest Path in Undirected Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Find the Shortest Path in Undirected Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">28</td>
+			<td valign="middle">Find the Shortest Path in Undirected Graph Using Dijkstra's Algorithm</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Find the Shortest Path in Undirected Graph Using Dijkstra's Algorithm.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">29</td>
+			<td valign="middle">Find the Shortest Path in Directed Acyclic Graph</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Find the Shortest Path in Directed Acyclic Graph.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">30</td>
+			<td valign="middle">Find the Shortest Path in Directed Acyclic Graph - (Weight taken automatically)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Find the Shortest Path in Directed Acyclic Graph - (Weight taken automatically).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">31</td>
+			<td valign="middle">All Pairs Shortest Path | Floyd Warshall Algorithm - (Input Edges)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/All Pairs Shortest Path | Floyd Warshall Algorithm - (Input Edges).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">32</td>
+			<td valign="middle">All Pairs Shortest Path | Floyd Warshall Algorithm - (Input Matrix)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/All Pairs Shortest Path | Floyd Warshall Algorithm - (Input Matrix).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">33</td>
+			<td rowspan="2" align="center" valign="middle"><img width="40px" src="https://user-images.githubusercontent.com/34242279/216403562-5b30372f-abe3-4d26-895c-3c6c5da0881b.png"/></td>
+			<td valign="middle">Detect Nagetive Weight Cycle Using Bellmen Ford Algorithm - Adjacency List</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Detect Nagetive Weight Cycle Using Bellmen Ford Algorithm - Adjacency List.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">34</td>
+			<td valign="middle">Detect Nagetive Weight Cycle Using Bellmen Ford Algorithm - Edge List</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Detect Nagetive Weight Cycle Using Bellmen Ford Algorithm - Edge List.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">35</td>
+			<td align="center" valign="middle"><img width="18px" src="https://user-images.githubusercontent.com/34242279/216407964-d6af5abd-15d0-4307-812a-507c6831bdd6.png"/></td>
+			<td valign="middle">Minimum Spanning Tree - MST (Prim's Algorithm)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Minimum Spanning Tree - MST (Prim's Algorithm).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">36</td>
+			<td align="center" valign="middle"><img height="18px" src="https://user-images.githubusercontent.com/34242279/216434930-eeb72164-58db-4cf4-a63e-720088e3137a.png"/></td>
+			<td valign="middle">Bridge (Cut Edges)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Bridge (Cut Edges).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">37</td>
+			<td align="center" valign="middle"><img height="18px" src="https://user-images.githubusercontent.com/34242279/216435563-3d10e33a-f4c4-47e0-90bf-8b1fb91024b6.png"/></td>
+			<td valign="middle">Articulation Point (Cut Vertices)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Articulation Point (Cut Vertices).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">38</td>
+			<td align="center" valign="middle"><img height="18px" src="https://user-images.githubusercontent.com/34242279/216434922-b47d5903-c523-4063-af61-7cacbcc3db56.png"/></td>
+			<td valign="middle">Strongly Connected Components using Kosaraju's Algorithm</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Path/Strongly Connected Components using Kosaraju's Algorithm.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" valign="middle">▼ Disjoint Set ▼</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">39</td>
+			<td align="center" rowspan="4" valign="middle"><img src="https://user-images.githubusercontent.com/34242279/216420717-c8f55253-4b79-43d2-966f-6bada09aa40b.png"/></td>
+			<td valign="middle">Disjoint Set - (Union by rank)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Disjoint Set/Disjoint Set - (Union by rank).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">40</td>
+			<td valign="middle">Disjoint Set - (Union by size)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Disjoint Set/Disjoint Set - (Union by size).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">41</td>
+			<td valign="middle">Disjoint Set - Cycle Detection</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Disjoint Set/Disjoint Set - Cycle Detection.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">42</td>
+			<td valign="middle">Disjoint Set - Minimum Spanning Tree</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Graph/Disjoint Set/Disjoint Set - Minimum Spanning Tree.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 		</tr>
 	</tbody>
 </table>
