@@ -1,27 +1,16 @@
 #include <iostream>
 using namespace std;
 
-void binarySearch(int A[], int n, int key){
-    int start = 0, end = n-1, center, result = 0, attempt = 0;
-    while (start <= end){
-        attempt++;
-        center = (start + end)/2;
-        if(key == A[center]){
-            result = center+1;
-            break;
-        } else if (key > A[center]){
-            start = center + 1;
-        } else if (key < A[center]){
-            end = center - 1;
-        }
+int binarySearch(int A[], int n, int key, int start, int end){
+    int center = (start + end)/2;
+    if(key == A[center]){
+        return center+1;
+    } else if (key > A[center]){
+        start = center + 1;
+    } else if (key < A[center]){
+        end = center - 1;
     }
-    
-    if(result > 0){
-        cout << "The element [" << key << "] is matched at the position (" << result << ")" << endl;
-    } else {
-        cout << "The element [" << key << "] didn't match with any element in the array." << endl;
-    }
-    cout << "Total attempt(s): " << attempt;
+    return (start <= end) ? binarySearch(A, n, key, start, end) : 0;
 }
 
 void print(int A[], int n){
@@ -37,6 +26,11 @@ int main(){
     print(A, n);
 
     cout << endl;
-    int key = 1;
-    binarySearch(A, n, key);
+    int key = 0;
+    int result = binarySearch(A, n, key, 0, n-1);
+    if(result > 0){
+        cout << "The element [" << key << "] is matched at the position (" << result << ")" << endl;
+    } else {
+        cout << "The element [" << key << "] didn't match with any element in the array." << endl;
+    }
 }

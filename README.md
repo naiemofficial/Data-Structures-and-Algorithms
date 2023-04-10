@@ -84,18 +84,18 @@
 		</tr>
 		<tr>
 			<td align="center" valign="middle">11</td>
-			<td valign="middle">Merge two unsorted arrays into a sorted array</td>
-			<td align="center" valign="middle"><a target="_blank" href="/Array initializations & operations/Merge two unsorted arrays into a sorted array.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
-		</tr>
-		<tr>
-			<td align="center" valign="middle">12</td>
 			<td valign="middle">Merge two sorted arrays into one array (Iterative)</td>
 			<td align="center" valign="middle"><a target="_blank" href="/Array initializations & operations/Merge two sorted arrays into one array (Iterative).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 		</tr>
 		<tr>
-			<td align="center" valign="middle">13</td>
+			<td align="center" valign="middle">12</td>
 			<td valign="middle">Merge two sorted arrays into one array (Recursive)</td>
 			<td align="center" valign="middle"><a target="_blank" href="/Array initializations & operations/Merge two sorted arrays into one array (Recursive).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle">13</td>
+			<td valign="middle">Merge two unsorted arrays into a sorted array</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Array initializations & operations/Merge two unsorted arrays into a sorted array.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 		</tr>
 		<tr>
 			<td colspan="4" align="center" valign="middle"><sub><sup>🡇</sup></sub> Reverse <sub><sup>🡇</sup></sub></td>
@@ -162,8 +162,8 @@
 		</tr>
 		<tr>
 			<td align="center" valign="middle">24</td>
-			<td valign="middle">Inerstion sort</td>
-			<td align="center" valign="middle"><a target="_blank" href="/Sorting/Inerstion sort.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+			<td valign="middle">Insertion sort</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Sorting/Insertion sort.cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
 		</tr>
 		<tr>
 			<td align="center" valign="middle">25</td>
