@@ -26,25 +26,10 @@ bool sortbyBTandAT(process a, process b){
     return a.burst_time < b.burst_time;
 }
 
-void sortQueue(queue<process> &Q){
-    vector<process> temp_Q;
-    while(!Q.empty()){
-        temp_Q.push_back(Q.front()); Q.pop();
-    }
-    sort(temp_Q.begin(), temp_Q.end(), sortbyBTandAT);
-    for(const process P : temp_Q)  Q.push(P);
-}
-
-bool processExists(queue<process> &Q, process P){
-    bool exists = false;
-    vector<process> temp_Q;
-    while(!Q.empty()){
-        if(Q.front().id == P.id) exists = true;
-        temp_Q.push_back(Q.front()); Q.pop();
-    }
-    sort(temp_Q.begin(), temp_Q.end(), sortbyBTandAT);
-    for(const process P : temp_Q)  Q.push(P);
-    return exists;
+bool processExists(vector<process> &Q, process P){
+    return find_if(Q.begin(), Q.end(), [&P](process QP){
+        return (QP.id == P.id);
+    }) != Q.end();
 }
 
 int find_process_index(vector<process> &container, process &target){
@@ -54,15 +39,17 @@ int find_process_index(vector<process> &container, process &target){
     return -1;
 }
 
-void AddProcess(queue<process> &Q, vector<process> &container, int currnt_time){
+void AddProcess(vector<process> &Q, vector<process> &container, int currnt_time){
     for(process P : container){
         if(P.completion_time == -1 && P.arrival_time <= currnt_time && !processExists(Q, P)){
-            Q.push(P);
+            Q.push_back(P);
         }
     }
 
     // Condition: If Q has more than 1 process, the priority will be based on burst time
-    if(Q.size() > 1) sortQueue(Q);
+    if(Q.size() > 1){
+        sort(Q.begin(), Q.end(), sortbyBTandAT);
+    }
 }
 
 void printProcess(process P){
@@ -111,12 +98,12 @@ int main(){
     // Initial Process will be start based on arrival_time
     sort(P.begin(), P.end(), sortbyAT);
 
-    queue<process> Q; // Ready Queue
+    vector<process> Q; // Ready Queue
     int current_time = P.front().arrival_time; // Initial current_time
     AddProcess(Q, P, current_time);
 
     while(!Q.empty()){
-        // Find the index in the vector by searching the front process
+        // Find the index in the vector by searching front process
         int i = find_process_index(P, Q.front());
 
         // -------------------------------------------------------------
@@ -136,7 +123,7 @@ int main(){
         current_time = P[i].completion_time;
 
         // Prepare Ready-Queue
-        Q.pop(); // Remove completed process
+        Q.erase(Q.begin()); // Remove completed process
         AddProcess(Q, P, current_time);
     }
 
