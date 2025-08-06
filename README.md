@@ -1244,6 +1244,31 @@
 
 
 
+<br><br><br>
+
+
+
+### 🖥️ Operating Systems
+<table cellspacing="0" cellpadding="0">
+	<thead>
+		<tr>
+			<th align="center" valign="middle">SL</th>
+			<th valign="middle">Cateogry</th>
+			<th align="center" valign="middle" width="800px">Program</th>
+			<th align="center" valign="middle">Sources</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="center" valign="middle">1</td>
+			<td rowspan="5" align="center" valign="middle"><img src="https://github.com/user-attachments/assets/e5dd9d7d-6729-4a2e-b065-a08772b56443" width="20px" /></td>
+			<td valign="middle">Shortest Job First (SJF)</td>
+			<td align="center" valign="middle"><a target="_blank" href="/Operating Systems/Shortest Job First (SJF).cpp"><img height="16px" src="https://user-images.githubusercontent.com/34242279/157731658-3ed009af-395d-4551-9159-12194f041f5c.png"/></a></td>
+		</tr>
+	</tbody>
+</table>
+
+
 <br><br>
 <hr>
 
@@ -1253,6 +1278,6 @@
 		◉ Programiz 
 		◉ Flaticon
 		<br>
-		✉️ E-mail: <a href="mailto:mail@naiem.info">mail@naiem.info</a> (for any inquiries)
+		✉️ E-mail: <a href="mailto:contact@naiem.info">contact@naiem.info</a> (for any inquiries)
 	</sup></sub>
 </quote>
